@@ -1,4 +1,4 @@
-Netflix Clone 🔥🔥 13 SEPTEMBER 2020 with REACTJS & Firebase !
+Netflix Clone 🔥🔥 13 SEPTEMBER 2020 with REACTJS & TMDB !
 
     -   Get TMDB API KEY (A famous movies Api) => https://www.themoviedb.org/
 
