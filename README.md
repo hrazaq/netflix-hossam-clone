@@ -23,7 +23,7 @@ Netflix Clone 🔥🔥 13 SEPTEMBER 2020 with REACTJS & TMDB !
       => https://www.npmjs.com/package/react-youtube
     
     - Using movie-trailler
-      => https://www.npmjs.com/package/movie-trailer
+      => https://www.npmjs.com/package/movie-trailer 
 
 
 
