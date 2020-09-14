@@ -1,6 +1,7 @@
 import React , { useState, useEffect } from 'react'
 import axios from './axios';
 import requests from './requests'
+import './Banner.css';
 
 function Banner() {
     const [movie, setMovie] = useState([]);
@@ -17,6 +18,12 @@ function Banner() {
     }, [])
 
     console.log(movie);
+
+    // function to truncate the string
+    function truncate (str, n) {
+        return str?.length > n ? str.substr(0, n-1) + "..." : str;
+    }
+
     return (
         <header className="banner"
             style={{
@@ -28,19 +35,21 @@ function Banner() {
             }}
         > {/* ${movie?.backdrop_path} , if exist put it if dont dont !*/}
             <div className="banner__contents"> 
-                <h1> {/* If statement == optional Chaining*/}
+                <h1 className="banner__title"> {/* If statement == optional Chaining*/}
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
+
                 <div className="banner__buttons">
                     <button className="banner__button">Play</button>
                     <button className="banner__button">My List</button>
                 </div>
 
                 <h1 className="banner__description">
-                    {movie?.overview}
+                    {truncate(movie?.overview, 150)} 
                 </h1>
-
             </div>
+            {/* An empty div ; for the fade bottom */}
+            <div className="banner__fadeBottom" /> 
         </header>
     )
 }
