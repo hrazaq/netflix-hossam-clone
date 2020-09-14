@@ -1,0 +1,38 @@
+.row {
+    margin-left: 20px;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden; /* Dont Scroll vertically */
+    overflow-x: scroll; /* Scroll horizontaly */
+    padding: 20px; /* To dont croop */
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none; /* To all browser; please dont show the scrool bar BUT ! keep the fonctionality of it ! */
+}
+
+.row__poster {
+    object-fit: contain; /* keep the aspect ratio = keep the looking very nice ! */
+    width: 100%;
+    max-height: 100px;
+    transition: transform 450ms; /* its useful in hover; a smooth transition when changing size ! */
+    margin-right: 10px;
+}
+
+.row__poster:hover {
+    cursor: pointer; /* change the cursor to pointer one ! */
+    transform: scale(1.08); /*  Move forward by 1.08 !*/
+    opacity: 1;
+}
+
+.row__posterLarge {
+    max-height: 250px;
+}
+
+.row__posterLarge:hover {
+    cursor: pointer; /* change the cursor to pointer one ! */
+    transform: scale(1.09); /*  Move forward by 1.08 !*/
+    opacity: 1;
+}

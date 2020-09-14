@@ -1,3 +1,17 @@
+Netflix Clone 🔥🔥 13 SEPTEMBER 2020 with REACTJS & Firebase !
+
+    -   Get TMDB API KEY (A famous movies Api) => https://www.themoviedb.org/
+
+    -   Using AXIOS Patern we get all the data;Axios is a popular, promise-based HTTP client that sports an easy-to-use API and can be used in both the browser and Node. js. Making HTTP requests to fetch or save data is one of the most common tasks a client-side JavaScript application will need to do.
+
+    - Using Async Functions;Async functions enable us to write promise based code as if it were synchronous, but without blocking the execution thread. Using async simply implies that a promise will be returned, and if a promise is not returned, JavaScript automatically wraps it in a resolved promise with its value
+
+    - To enable Emmet, you don't need to any extension, just follow the steps here :
+    https://medium.com/@eshwaren/enable-emmet-support-for-jsx-in-visual-studio-code-react-f1f5dfe8809c
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
